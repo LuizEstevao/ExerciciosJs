@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  body {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/nighttime-nature-landscape-galaxy-mountain-water-star-beauty-generative-ai.jpg);
+    background-size: cover;
+  }
+  
+  
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 5%;
+    width: 35%;
+    height: 50%;
+    border: 2px solid white;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.295);
+    padding: auto;
+  }
+  
+  section h1 {
+    color: white;
+    font-size: 4vh;
+    margin-bottom: 10vh;
+  }
+  
+  #exercicioSelecionado {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+    height: 10%;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+    border: 3px solid black;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.295);
+  }
+  
+  @media(max-width: 800px) {
+    #exercicioSelecionado{
+      width: 40%;
+      font-size: 1rem;
+    }
+  
+   
+  
+  }
+  
+  select option {
+      background-color: black;
+      color: #fff;
+      font-weight: bold;
+  }
+  
+  
+  
+  /* background-image: linear-gradient(to right, #e44940, #c63d43, #a63442, #862c3d, #672636); */
+  
+  
+  button {
+    text-transform: uppercase;
+    background: linear-gradient(
+      135deg,
+      #e44940 0%,
+      #c63d43 25%,
+      #a63442 50%,
+      #c63d43 75%,
+      #e44940 100%
+     
+
+      
+    );
+    background-size: 650%;
+    animation: animate 10s linear infinite;
+    color: white;
+    font-size: 2vh;
+    width: 50%;
+    height: 5rem;
+    border-radius: 30px;
+    border: 3px solid black;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.295);
+  }
+  
+  @keyframes animate {
+    100% {
+      background-position: 400%;
+    }
+  }
+  
+  h2 {
+    font-size: 2vh;
+    color: white;
+    margin-top: 10vh;
+    font-weight: 400;
+  }
+  
